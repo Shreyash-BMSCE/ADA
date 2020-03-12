@@ -4,6 +4,9 @@ using namespace std;
 
 bool LEFT_TO_RIGHT = true; 
 bool RIGHT_TO_LEFT = false; 
+//int LEFT_TO_RIGHT = 0;
+//int RIGHT_TO_LEFT = 1;
+
 
 
 int searchArr(int a[], int n, int mobile) 
@@ -86,7 +89,7 @@ int fact(int n)
 } 
 
 
-void printPermutation(int n) 
+void printPerm(int n) 
 { 
 	
 	int a[n]; 
@@ -115,6 +118,6 @@ void printPermutation(int n)
 int main() 
 { 
 	int n = 4; 
-	printPermutation(n); 
+	printPerm(n); 
 	return 0; 
 } 
