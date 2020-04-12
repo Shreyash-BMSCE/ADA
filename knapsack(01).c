@@ -21,8 +21,6 @@ for (i = 0; i <= n; i++)
 				K[i][w] = K[i-1][w]; 
 	} 
 } 
-/*for(i=0;i<9;i++)
-printf("\t %d",K[2][i]);  */
 return K[n][W]; 
 } 
 
